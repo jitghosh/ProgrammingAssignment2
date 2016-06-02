@@ -1,4 +1,4 @@
-## The makeCacheMatrix() function serves as an accessor function generator. 
+## The makeCacheMatrix() function serves as an accessor function generator and a cache. 
 ## It accepts a square (invertible) matrix and returns a list, where each member of the list 
 ## are accessor functions. It additionally declares a cached variable containing the 
 ## matrix inverse, such that on subsequent attempts to calculate the inverse the cached value can be 
